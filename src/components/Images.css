@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card{
+   padding: 20px 0; 
+   margin: 20px 0;
+   display: flex;
+   justify-content:top;
+}
+.card > .card_menu{
+    display: flex;
+    justify-content: baseline;
+}
+
+@media (min-width:768px){
+
+    .container > .card{
+        
+        display: flex;
+        align-items: center;
+        width: 32%;
+    }
+    .card > .card_menu{
+        width: 50%;
+        margin: 0 0;
+    }  
+    .card > h3{
+        display: flex;
+        justify-content: center;
+    } 
+}
+
+@media (min-width:768px){
+
+    .container > .card{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+    }
+   
+}
