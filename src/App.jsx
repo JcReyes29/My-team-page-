@@ -1,5 +1,5 @@
+import Images from './components/Images'
 import './App.css'
-import Images from './components/images'
 
 function App() {
 
