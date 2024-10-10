@@ -1,4 +1,4 @@
-import Images from './components/Images.jsx'
+import Images from './components/pictures/Images'
 import './App.css'
 
 function App() {
