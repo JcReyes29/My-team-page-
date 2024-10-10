@@ -1,4 +1,4 @@
-import Images from './components/images'
+import Images from './components/Images.jsx'
 import './App.css'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
           <h2 className='font-semibold'>WHO WE ARE</h2>
           <p>We are team of creatively diverse, driven, innovative individuals working in various locations from the world.</p>
         </section>
-        <Images></Images>
+        <Images/>
 
       </div>
     </>
